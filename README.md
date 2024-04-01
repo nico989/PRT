@@ -23,7 +23,7 @@ Generate Primary Refresh Token. The Python script must be run locally on a Windo
 	$ python3 prt.py -i <Tenant ID>
 	```
 
-4. Visit https://portal.azure.com. Copy the `x-msRefreshToken` from the script output and paste it into the browser. Then, refresh the https://portal.azure.com page to get access.
+4. Visit https://portal.azure.com. Copy the `x-ms-RefreshTokenCredential` from the script output and paste it into the browser. Then, refresh the https://portal.azure.com page to get access.
 
 
 # Credits
